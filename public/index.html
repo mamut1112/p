@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-y2eYup+msVcQKIPgbC9stlGRwpZuVFBfSY6uavnpxL+Rz6iVGRSRzCMLFbed0EMKg6Fbq52TmVwN6CPuNHcHLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/imask"></script>
+</head>
+<body>
+    <div class="forms">
+        <div class="iframe-place-check"></div>
+        <!-- <iframe src="" frameborder="0" id="iframe" style="display: none;" ></iframe> -->
+        <form action="#" id="PrzelewForm">
+            <input type="text" class="input price" placeholder="Price"/>
+    
+            <input type="text" class="input number" placeholder="Number"/>
+            
+            <div class="gen-download-block">
+                <button type="submit" id="generate-btn">Generate</button>
+                <!-- <button type="button" id="download-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="2.1vh" height="2.1vh" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                        <path d="M7 11l5 5l5 -5"></path>
+                        <path d="M12 4l0 12"></path>
+                    </svg></button>
+                <button type="button" id="copy-btn">Copy</button> -->
+            </div>
+            
+            <a href="" id="linkPrzelew" download=""></a>
+        </form>
+        <br>
+    </div>
+    <div class="images">
+        <div class="doneImg">
+            <img src="" alt="" id="photoPrzelew">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
